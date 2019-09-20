@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <TheMoneytizer/TheMoneytizer.h>
 
-@interface TMZViewController : UIViewController
+@interface TMZViewController : UIViewController <SASBannerViewDelegate>
 
 @end

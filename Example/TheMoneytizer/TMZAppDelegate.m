@@ -7,12 +7,15 @@
 //
 
 #import "TMZAppDelegate.h"
+#import <TheMoneytizer/TheMoneytizer.h>
 
 @implementation TMZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Initialize The Moneytizer SDK
+    [[TMZConfiguration sharedInstance] setupInTestMode];
+    
     return YES;
 }
 
