@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TheMoneytizer'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'The Moneytizer Ads SDK for managing in App advertising.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ The Moneytizer Ads SDK for managing in App advertising. Monetize your app by dis
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.static_framework = true
-  s.dependency 'Smart-Display-SDK', '~> 7.1'
-  s.dependency 'AdinCube', '~> 2.8'
+  s.dependency 'Smart-Display-SDK', '~> 7.2'
+  s.dependency 'AdinCube', '~> 2.9'
 end

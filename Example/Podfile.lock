@@ -1,88 +1,79 @@
 PODS:
   - AdColony (3.3.6)
-  - AdinCube (2.8.19):
-    - AdinCube/AdColony (= 2.8.19)
-    - AdinCube/AdMob (= 2.8.19)
-    - AdinCube/Amazon (= 2.8.19)
-    - AdinCube/AppLovin (= 2.8.19)
-    - AdinCube/AppNext (= 2.8.19)
-    - AdinCube/Chartboost (= 2.8.19)
-    - AdinCube/Core (= 2.8.19)
-    - AdinCube/DoubleClick (= 2.8.19)
-    - AdinCube/Facebook (= 2.8.19)
-    - AdinCube/IronSource (= 2.8.19)
-    - AdinCube/MoPub (= 2.8.19)
-    - AdinCube/OguryConsentManager (= 2.8.19)
-    - AdinCube/Tapjoy (= 2.8.19)
-    - AdinCube/UnityAds (= 2.8.19)
-    - AdinCube/Vungle (= 2.8.19)
-  - AdinCube/AdColony (2.8.19):
+  - AdinCube (2.9.4):
+    - AdinCube/AdColony (= 2.9.4)
+    - AdinCube/AdMob (= 2.9.4)
+    - AdinCube/Amazon (= 2.9.4)
+    - AdinCube/AppLovin (= 2.9.4)
+    - AdinCube/Chartboost (= 2.9.4)
+    - AdinCube/Core (= 2.9.4)
+    - AdinCube/DoubleClick (= 2.9.4)
+    - AdinCube/Facebook (= 2.9.4)
+    - AdinCube/IronSource (= 2.9.4)
+    - AdinCube/Ogury (= 2.9.4)
+    - AdinCube/OguryConsentManager (= 2.9.4)
+    - AdinCube/Tapjoy (= 2.9.4)
+    - AdinCube/UnityAds (= 2.9.4)
+    - AdinCube/Vungle (= 2.9.4)
+  - AdinCube/AdColony (2.9.4):
     - AdColony (= 3.3.6)
     - AdinCube/Core
-  - AdinCube/AdMob (2.8.19):
+  - AdinCube/AdMob (2.9.4):
     - AdinCube/Core
     - Google-Mobile-Ads-SDK (= 7.34.0)
-  - AdinCube/Amazon (2.8.19):
+  - AdinCube/Amazon (2.9.4):
     - AdinCube/Core
     - AmazonAd (= 2.2.15.1)
-  - AdinCube/AppLovin (2.8.19):
+  - AdinCube/AppLovin (2.9.4):
     - AdinCube/Core
     - AppLovinSDK (= 6.2.0)
-  - AdinCube/AppNext (2.8.19):
-    - AdinCube/Core
-  - AdinCube/Chartboost (2.8.19):
+  - AdinCube/Chartboost (2.9.4):
     - AdinCube/Core
     - ChartboostSDK (= 7.2.0)
-  - AdinCube/Core (2.8.19)
-  - AdinCube/DoubleClick (2.8.19):
+  - AdinCube/Core (2.9.4)
+  - AdinCube/DoubleClick (2.9.4):
     - AdinCube/Core
     - Google-Mobile-Ads-SDK (= 7.34.0)
-  - AdinCube/Facebook (2.8.19):
+  - AdinCube/Facebook (2.9.4):
     - AdinCube/Core
-    - FBAudienceNetwork (= 5.1.0)
-  - AdinCube/IronSource (2.8.19):
+    - FBAudienceNetwork (= 5.5.1)
+  - AdinCube/IronSource (2.9.4):
     - AdinCube/Core
     - IronSourceSDK (= 6.8.4.2)
-  - AdinCube/MoPub (2.8.19):
+  - AdinCube/Ogury (2.9.4):
     - AdinCube/Core
-    - mopub-ios-sdk (= 5.4.1)
-  - AdinCube/OguryConsentManager (2.8.19):
+    - OguryAds (= 1.2.0)
+  - AdinCube/OguryConsentManager (2.9.4):
     - AdinCube/Core
-    - OguryConsentManager (= 1.2.1)
-  - AdinCube/Tapjoy (2.8.19):
+    - OguryConsentManager (= 1.2.3)
+  - AdinCube/Tapjoy (2.9.4):
     - AdinCube/Core
     - TapjoySDK (= 12.0.0)
-  - AdinCube/UnityAds (2.8.19):
+  - AdinCube/UnityAds (2.9.4):
     - AdinCube/Core
     - UnityAds (= 3.0.3)
-  - AdinCube/Vungle (2.8.19):
+  - AdinCube/Vungle (2.9.4):
     - AdinCube/Core
     - VungleSDK-iOS (= 6.3.2)
   - AmazonAd (2.2.15.1)
   - AppLovinSDK (6.2.0)
   - ChartboostSDK (7.2.0)
-  - FBAudienceNetwork (5.1.0)
+  - FBAudienceNetwork (5.5.1):
+    - FBSDKCoreKit/Basics (>= 5.2.1)
+  - FBSDKCoreKit/Basics (5.8.0)
   - Google-Mobile-Ads-SDK (7.34.0)
   - IronSourceSDK (6.8.4.2)
-  - mopub-ios-sdk (5.4.1):
-    - mopub-ios-sdk/MoPubSDK (= 5.4.1)
-  - mopub-ios-sdk/Avid (5.4.1):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/Core (5.4.1)
-  - mopub-ios-sdk/Moat (5.4.1):
-    - mopub-ios-sdk/Core
-  - mopub-ios-sdk/MoPubSDK (5.4.1):
-    - mopub-ios-sdk/Avid
-    - mopub-ios-sdk/Core
-    - mopub-ios-sdk/Moat
-  - OguryConsentManager (1.2.1)
-  - Smart-Core-SDK (7.1.0)
-  - Smart-Display-SDK (7.1.1):
-    - Smart-Core-SDK (~> 7.1)
+  - OguryAds (1.2.0):
+    - OguryAds/OMID (= 1.2.0)
+  - OguryAds/OMID (1.2.0)
+  - OguryConsentManager (1.2.3)
+  - Smart-Core-SDK (7.2.0)
+  - Smart-Display-SDK (7.2.0):
+    - Smart-Core-SDK (~> 7.2)
   - TapjoySDK (12.0.0)
-  - TheMoneytizer (0.1.0):
-    - AdinCube (~> 2.8)
-    - Smart-Display-SDK (~> 7.1)
+  - TheMoneytizer (1.0.1):
+    - AdinCube (~> 2.9)
+    - Smart-Display-SDK (~> 7.2)
   - UnityAds (3.0.3)
   - VungleSDK-iOS (6.3.2)
 
@@ -97,9 +88,10 @@ SPEC REPOS:
     - AppLovinSDK
     - ChartboostSDK
     - FBAudienceNetwork
+    - FBSDKCoreKit
     - Google-Mobile-Ads-SDK
     - IronSourceSDK
-    - mopub-ios-sdk
+    - OguryAds
     - OguryConsentManager
     - Smart-Core-SDK
     - Smart-Display-SDK
@@ -113,19 +105,20 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AdColony: 68473450de30de67154675c3512353a55c8f97cc
-  AdinCube: b9fe82fc92798ad4f95a5d6d31e5a260599419bd
+  AdinCube: 694f5fd1a30fe3a6acaf0effca54ec143e42c3e2
   AmazonAd: 9b7226322bc124343d279a98c28cdae26c48a0e7
   AppLovinSDK: b960ee5305e0cd8437bb0e97c9fe0be7d5cca57c
   ChartboostSDK: 15386cd16c8a5d07bb75432d0fafafd6134eedb1
-  FBAudienceNetwork: 95efd4f20dc44f97254dbd3dfe5a4d19164092a8
+  FBAudienceNetwork: 783ff4808b0b59d0eb294dd94eb251f46e0ce5c9
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
   Google-Mobile-Ads-SDK: a1cbce28c0c78ca1fb0b6c4f213485f55527c99f
   IronSourceSDK: 311369a610192c00350654fe53ceeb279aa8d976
-  mopub-ios-sdk: 320de49dd0a352ac58d33104a23853e749a84a78
-  OguryConsentManager: 42b1d0c5e1e6b30189fca0af3c28db1b9b514d9e
-  Smart-Core-SDK: 23ecc9d692980092ca0f6ecb81eb2c9fc1a97e6e
-  Smart-Display-SDK: 52e510c6a6bdc891987b0696ff2bd17bbc6a0c4c
+  OguryAds: 1b850862bb5fbac44d31eb49d5d07abebed371b9
+  OguryConsentManager: 5dcd90e8788ab6a1dcbb5236807164c29ea7f6f6
+  Smart-Core-SDK: ec027649dedadf778616c718283795b83155e3fa
+  Smart-Display-SDK: d84aadc873e6007568567105e9e07dfc12ff7dce
   TapjoySDK: 6d6484d6a8c66aea6f214a4116d63a4175119b8d
-  TheMoneytizer: ae1a583cedde4a84279c43afd08a40aaa45ed57a
+  TheMoneytizer: 6c2f753fd56f175493ebce4061e05a3df764dc1b
   UnityAds: a7737865bf263bc14a469d4ae47c51703fa294bc
   VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
 
